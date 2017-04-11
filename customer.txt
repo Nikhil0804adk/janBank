@@ -1,0 +1,11 @@
+create table customer(
+idc int NOT NULL PRIMARY KEY AUTO_INCREMENT,
+unamec varchar(255) NOT NULL,
+fnamec varchar(255) NOT NULL,
+lnamec varchar(255) NOT NULL, 
+stgenc varchar(255) NOT NULL, 
+emailc varchar(255) NOT NULL, 
+phonec int NOT NULL, 
+staddc varchar(255) NOT NULL, 
+passwc varchar(255) NOT NULL
+);

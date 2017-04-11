@@ -1,0 +1,15 @@
+create table staff(
+id int NOT NULL PRIMARY KEY AUTO_INCREMENT,
+uname varchar(255) NOT NULL,
+fname varchar(255) NOT NULL,
+lname varchar(255) NOT NULL, 
+stgen varchar(255) NOT NULL, 
+stdob date NOT NULL, 
+stmar varchar(255) NOT NULL, 
+stdep varchar(255) NOT NULL, 
+stdoj date NOT NULL, 
+email varchar(255) NOT NULL, 
+phone int NOT NULL, 
+stadd varchar(255) NOT NULL, 
+passw varchar(255) NOT NULL
+);

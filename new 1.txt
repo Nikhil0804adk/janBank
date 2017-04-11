@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Shaurya Project-Register</title>
+	<link href="css/style.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div class="wrapper">
+	<div class="addStaff">
+				<div class="form">
+					<h2>Add Staff</h2>
+					<form action="adminHome.php" method="post">
+						<div class="li">
+							<label>First Name : </label>
+							<input type="text" name="fname" />
+						</div><br/>
+						<div class="li">
+							<label>Last Name: </label>
+							<input type="text" name="lname" />
+						</div><br/>
+						<div class="li">
+							<label>Gender :</label>
+							M<input type="radio" name="stgen" value="M" checked/>
+							F<input type="radio" name="stgen" value="F" />
+						</div><br/>
+						<div class="li">
+							<label>Date of Birth : </label>
+							<input type="date" name="stdob" required=""/>
+						</div><br/>
+						<div class="li">
+							<label>Maritial Status : </label>
+							<select name="stmar">
+								<option>unmarried</option>
+								<option>married</option>
+								<option>divorced</option>
+							</select>
+						</div><br/>
+						<div class="li">
+							<label>Deparment : </label>
+							<select name="stdep">
+								<option>revenue</option>
+								<option>developer</option>
+							</select>
+						</div><br/>
+						<div class="li">
+							<label>Date of Join : </label>
+							<input type="date" name="stdoj" required=""/>
+						</div><br/>
+						<div class="li">
+							<label>Email : </label>
+							<input type="email" name="email"/>
+						</div><br/>
+						<div class="li">
+							<label>Phone: </label>
+							<input type="text" name="phone"/>
+						</div><br/>
+						<div class="li">
+							<label>Address : </label>
+							<textarea name="stadd" required=""></textarea>
+						</div><br/>
+						<div class="li">
+							<label>Password : </label>
+							<input type="password" name="passw"/>
+						</div><br/>
+						<div class="li">
+							<label>Confirm Password : </label>
+							<input type="password" name="cpassw"/>
+						</div><br/><br/><br/>
+						<input type="submit" name="submit" value="Register"/>
+					</form>
+				</div>
+					<div class="btn">
+					<a href="adminHome.php">Back to Main Page ></a>
+					</div>
+				</div>	
+	</div>
+</body>
